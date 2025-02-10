@@ -10,7 +10,7 @@ import java.util.List;
 import static org.springframework.web.servlet.function.ServerResponse.ok;
 import static org.springframework.web.servlet.function.ServerResponse.created;
 
-@Component
+/*@Component
 public class APIPlaceHandler {
 
     public ServerResponse getPlaces(ServerRequest request) {
@@ -33,4 +33,4 @@ public class APIPlaceHandler {
         return ok().body(true);
     }
 
-}
+}*/

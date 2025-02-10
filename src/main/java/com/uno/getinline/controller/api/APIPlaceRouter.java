@@ -12,7 +12,7 @@ import java.util.List;
 import static org.springframework.web.servlet.function.RequestPredicates.path;
 import static org.springframework.web.servlet.function.RouterFunctions.route;
 
-@Configuration
+/*@Configuration
 public class APIPlaceRouter {
 
     @Bean
@@ -24,10 +24,10 @@ public class APIPlaceRouter {
                 .PUT("/{placeId}", apiPlaceHandler::modifyPlaces)
                 .DELETE("/{placeId}", apiPlaceHandler::removePlaces)
                 ).build();
-    }
+    }*/
     
     //placeRouter 메서드가 아래 와 같은 내용임
     /*@GetMapping("/api/places")
     public List<String> getPlaces(){return List.of("place1", "place2");}*/
 
-}
+/*}*/
